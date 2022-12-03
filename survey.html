@@ -1,0 +1,54 @@
+<!DOCtype html>
+<html lang="en">
+
+<head> 
+<link rel="stylesheet" href="file:///Users/danielalippe/documents/Survey/styles.css">
+<title> Internet Soapbox</title>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1 id="title">Internet Soapbox</h1>
+    <p id="description"> This is a place on the internet in which you can express yourself. <br> 
+        Do you have a secret? Or an advice that you have always wanted to dispense? <br>
+        This is your place! </p>
+ <div class="survey">
+    <form id="survey-form" method="POST" action="https://formsubmit.co/your@email.com">
+        <fieldset>
+            <label for="name" id="name-label"> What's your name? <input name="name" id="name" type="text" required placeholder="Max Mustermann"> </label>
+            <label for="number" id="number-label"> What's your age? <input name="number"  id="number" type="number" min="16" max="120" placeholder="40" value="40"></label>
+            <label for="address" id="address"> What's your address? <input name="address"  id="address" type="adresse"></label>
+            <label for="email" id="email-label"> What's your email address? <input name="email" id= "email" type="email" required placeholder="max.mustermann@hotmail.com" value="max.mustermann@hotmail.com"></label>
+        </fieldset>
+        <fieldset>
+            <p>What do you want to get off your chest?</p>
+            <label for="secret"> <input type="radio" class="radio" id="secret" value="secret" name="offering"> I have a secret I want to share.</label>
+            <label for="advice"> <input type="radio" class="radio" id="advice" value="advice" name="offering"> I have advice I'd like to dispense. </label>
+            <label for="start"> Let's go.... <textarea type="text" id="start" class="advice"> </textarea> </label>
+        </fieldset>
+            <fieldset>
+            <label for="referrer">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        </fieldset>
+        <label for="terms-and-conditions" name="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="accept"/> I accept that everything will be shared publicly
+        </label>
+        <label for="great"> <input id="great" type="checkbox" required value="great"/> I am a great person </label>
+      <input class="submit" type="submit" value="Submit" id="submit"> 
+    </form>
+</div> 
+</body>
+<footer>
+    <p>Click <a href= Kartoffel.html>here</a> if you want to visit my restaurant. </p>
+</footer>
+
+</html>
+
